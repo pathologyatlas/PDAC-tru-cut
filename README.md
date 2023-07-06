@@ -274,7 +274,7 @@ See Microscopy with viewer:
 
 **pancreas pancreatic ductal adenocarcinoma**
 
-[![Click for Full Screen WSI](./screenshots/PDAC-tru-cut-2_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/PDAC-tru-cut/HE2.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/PDAC-tru-cut/HE2.html)
+[![Click for Full Screen WSI](./screenshots/PDAC-tru-cut-3_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/PDAC-tru-cut/HE3.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/PDAC-tru-cut/HE3.html)
 
 
 ```
@@ -285,9 +285,10 @@ See Microscopy with viewer:
 
 See Microscopy with viewer: 
 
-<iframe src="https://images.patolojiatlasi.com/PDAC-tru-cut/HE2.html" style="height:600px;width:100%;" data-external="1"></iframe>
+<iframe src="https://images.patolojiatlasi.com/PDAC-tru-cut/HE3.html" style="height:600px;width:100%;" data-external="1"></iframe>
 
 ```
+
 
 
 ```{comment}
