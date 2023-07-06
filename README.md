@@ -1,24 +1,8 @@
-# template
+# PDAC-tru-cut
 
 
+**PDAC-tru-cut for pathology atlas repositories**
 
-**template for pathology atlas repositories**
-
-
-```
-see [make-html-WSI](https://github.com/pathologyatlas/make-html-WSI) for more information and [TODO](https://github.com/pathologyatlas/TODO) to add cases
-```
-
-```
-update html file heading:
-
-<title>TemplateEN templateTR</title>
-
-<meta name="keywords" content="TemplateEN, templateTR, patoloji, atlas, pathology, whole slide image">
-
-<meta name="description" content="TemplateEN templateTR">
-
-```
 
 
 
@@ -41,10 +25,10 @@ add to begining of qmd page
 
 ---
 description: |
-    TemplateEN
-    TemplateTR
+    pancreas pancreatic ductal adenocarcinoma
+    pankreas, pankreatik duktal adenokarsinom
 date: last-modified
-categories: [template]
+categories: [PDAC-tru-cut]
 page-layout: full
 bibliography: references.bib
 ---
@@ -59,7 +43,7 @@ bibliography: references.bib
 
 
 
-```{r language template, echo=FALSE, include=TRUE}
+```{r language PDAC-tru-cut, echo=FALSE, include=TRUE}
 source("./R/language.R")
 output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 ```
@@ -68,74 +52,104 @@ output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
 
 
 ```{asis, echo = (language == "TR")}
-## TemplateTR {#sec-template}
+## pankreas, pankreatik duktal adenokarsinom {#sec-PDAC-tru-cut}
 ```
 
 
 ```{asis, echo = (language == "EN")}
-## TemplateEN {#sec-template}
+## pancreas pancreatic ductal adenocarcinoma {#sec-PDAC-tru-cut}
 ```
 
 
-```{r template screenshot, eval=TRUE, include=FALSE}
-if (!file.exists("./screenshots/template_screenshot.png")) {
+```{r PDAC-tru-cut screenshot, eval=TRUE, include=FALSE}
+if (!file.exists("./screenshots/PDAC-tru-cut-1_screenshot.png")) {
 webshot2::webshot(
-  url = "https://images.patolojiatlasi.com/template/HE.html",
-  file = "./screenshots/template_screenshot.png"
+  url = "https://images.patolojiatlasi.com/PDAC-tru-cut/HE1.html",
+  file = "./screenshots/PDAC-tru-cut_screenshot-1.png"
 )
 }
 ```
 
+```{r PDAC-tru-cut screenshot, eval=TRUE, include=FALSE}
+if (!file.exists("./screenshots/PDAC-tru-cut-2_screenshot.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/PDAC-tru-cut/HE2.html",
+  file = "./screenshots/PDAC-tru-cut_screenshot-2.png"
+)
+}
+```
+
+
+
 ```{r, echo=FALSE, include=FALSE, eval=FALSE}
-knitr::include_url(url = "https://images.patolojiatlasi.com/template/HE.html")
+knitr::include_url(url = "https://images.patolojiatlasi.com/PDAC-tru-cut/HE1.html")
 ```
 
 ```{r, echo=FALSE, include=FALSE, eval=FALSE}
-#| label: template_screenshot
-#| fig-cap: "TemplateTR"
-knitr::include_graphics("./screenshots/template_screenshot.png")
+#| label: PDAC-tru-cut_screenshot
+#| fig-cap: "pankreas, pankreatik duktal adenokarsinom"
+knitr::include_graphics("./screenshots/PDAC-tru-cut-1_screenshot.png")
 ```
 
 
 ::: {.content-hidden when-format="html"}
-TemplateTR
+pankreas, pankreatik duktal adenokarsinom
 :::
 
 ::: {.content-visible when-format="pdf"}
-TemplateTR
+pankreas, pankreatik duktal adenokarsinom
 :::
 
 
 
 ```{asis, echo = (language == "TR")}
 
-**templateTR**
+**pankreas, pankreatik duktal adenokarsinom**
 
 
-[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/template/HE.html)
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/PDAC-tru-cut-1_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/PDAC-tru-cut/HE1.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/PDAC-tru-cut/HE1.html)
 ```
 
 
 ```{asis, echo = ((language=="TR") & (output_type=="html"))}
 Mikroskopik görüntüleri inceleyin:
 
-<iframe src="https://images.patolojiatlasi.com/template/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
+<iframe src="https://images.patolojiatlasi.com/PDAC-tru-cut/HE1.html" style="height:600px;width:100%;" data-external="1"></iframe>
 
 ```
 
 
 
+```{asis, echo = (language == "TR")}
+
+**pankreas, pankreatik duktal adenokarsinom**
+
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/PDAC-tru-cut-2_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/PDAC-tru-cut/HE2.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/PDAC-tru-cut/HE2.html)
+```
+
+
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/PDAC-tru-cut/HE2.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
 ```{comment} 
 asis, echo = (language == "TR")
 
-**templateTR**
+**pankreas, pankreatik duktal adenokarsinom**
 
 
-[![İşaretlenmiş mikroskopik görüntüleri Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE_annotated.html) [İşaretlenmiş mikroskopik görüntüleri Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/template/HE_annotated.html)
+[![İşaretlenmiş mikroskopik görüntüleri Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/PDAC-tru-cut-1_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/PDAC-tru-cut/HE_annotated.html) [İşaretlenmiş mikroskopik görüntüleri Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/PDAC-tru-cut/HE_annotated.html)
 
 İşaretlenmiş mikroskopik görüntüleri inceleyin:
 
-<iframe src="https://images.patolojiatlasi.com/template/HE_annotated.html" style="height:600px;width:100%;" data-external="1"></iframe>
+<iframe src="https://images.patolojiatlasi.com/PDAC-tru-cut/HE_annotated.html" style="height:600px;width:100%;" data-external="1"></iframe>
 
 ```
 
@@ -146,20 +160,20 @@ asis, echo = (language == "TR")
 
 
 
-<button id="tani-case-template-btn">Tanıyı Göster</button>
-<div id="answer-template" style="display: none;">templateTR</div>
+<button id="tani-case-PDAC-tru-cut-btn">Tanıyı Göster</button>
+<div id="answer-PDAC-tru-cut" style="display: none;">pankreas, pankreatik duktal adenokarsinom</div>
 
 <script>
-  const showAnswer-templateBtn = document.getElementById('tani-case-template-btn');
-  const answer-template = document.getElementById('answer-template');
+  const showAnswer-PDAC-tru-cutBtn = document.getElementById('tani-case-PDAC-tru-cut-btn');
+  const answer-PDAC-tru-cut = document.getElementById('answer-PDAC-tru-cut');
 
-  showAnswer-templateBtn.addEventListener('click', () => {
-    if (answer-template.style.display === 'none') {
-      answer-template.style.display = 'block';
-      showAnswer-templateBtn.textContent = 'Tanıyı Gizle';
+  showAnswer-PDAC-tru-cutBtn.addEventListener('click', () => {
+    if (answer-PDAC-tru-cut.style.display === 'none') {
+      answer-PDAC-tru-cut.style.display = 'block';
+      showAnswer-PDAC-tru-cutBtn.textContent = 'Tanıyı Gizle';
     } else {
-      answer-template.style.display = 'none';
-      showAnswer-templateBtn.textContent = 'Tanıyı Göster';
+      answer-PDAC-tru-cut.style.display = 'none';
+      showAnswer-PDAC-tru-cutBtn.textContent = 'Tanıyı Göster';
     }
   });
 </script>
@@ -186,9 +200,9 @@ asis, echo = ((language=="TR") & (output_type!="html"))
 
 ```{asis, echo = (language == "EN")}
 
-**templateEN**
+**pancreas pancreatic ductal adenocarcinoma**
 
-[![Click for Full Screen WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/template/HE.html)
+[![Click for Full Screen WSI](./screenshots/PDAC-tru-cut-1_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/PDAC-tru-cut/HE1.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/PDAC-tru-cut/HE1.html)
 
 
 ```
@@ -199,7 +213,27 @@ asis, echo = ((language=="TR") & (output_type!="html"))
 
 See Microscopy with viewer: 
 
-<iframe src="https://images.patolojiatlasi.com/template/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
+<iframe src="https://images.patolojiatlasi.com/PDAC-tru-cut/HE1.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+```{asis, echo = (language == "EN")}
+
+**pancreas pancreatic ductal adenocarcinoma**
+
+[![Click for Full Screen WSI](./screenshots/PDAC-tru-cut-2_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/PDAC-tru-cut/HE2.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/PDAC-tru-cut/HE2.html)
+
+
+```
+
+
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))} 
+
+See Microscopy with viewer: 
+
+<iframe src="https://images.patolojiatlasi.com/PDAC-tru-cut/HE2.html" style="height:600px;width:100%;" data-external="1"></iframe>
 
 ```
 
@@ -207,14 +241,14 @@ See Microscopy with viewer:
 ```{comment}
 asis, echo = (language == "EN")
 
-**templateEN**
+**pancreas pancreatic ductal adenocarcinoma**
 
-[![Click for Full Screen Annotated WSI](./screenshots/template_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/template/HE_annotated.html) [Click for Full Screen Annotated WSI](https://images.patolojiatlasi.com/template/HE_annotated.html)
+[![Click for Full Screen Annotated WSI](./screenshots/PDAC-tru-cut-1_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/PDAC-tru-cut/HE_annotated.html) [Click for Full Screen Annotated WSI](https://images.patolojiatlasi.com/PDAC-tru-cut/HE_annotated.html)
 
 
 See Annotated Microscopy with viewer: 
 
-<iframe src="https://images.patolojiatlasi.com/template/HE_annotated.html" style="height:600px;width:100%;" data-external="1"></iframe>
+<iframe src="https://images.patolojiatlasi.com/PDAC-tru-cut/HE_annotated.html" style="height:600px;width:100%;" data-external="1"></iframe>
 
 
 
@@ -223,20 +257,20 @@ See Annotated Microscopy with viewer:
 ```{comment}
 asis, echo = (language == "EN")
 
-<button id="dx-case-template-btn">Show the Diagnosis</button>
-<div id="answer-template" style="display: none;">templateEN</div>
+<button id="dx-case-PDAC-tru-cut-btn">Show the Diagnosis</button>
+<div id="answer-PDAC-tru-cut" style="display: none;">pancreas pancreatic ductal adenocarcinoma</div>
 
 <script>
-  const showAnswer-templateBtn = document.getElementById('dx-case-template-btn');
-  const answer-template = document.getElementById('answer-template');
+  const showAnswer-PDAC-tru-cutBtn = document.getElementById('dx-case-PDAC-tru-cut-btn');
+  const answer-PDAC-tru-cut = document.getElementById('answer-PDAC-tru-cut');
 
-  showAnswer-templateBtn.addEventListener('click', () => {
-    if (answer-template.style.display === 'none') {
-      answer-template.style.display = 'block';
-      showAnswer-templateBtn.textContent = 'Hide the Diagnosis';
+  showAnswer-PDAC-tru-cutBtn.addEventListener('click', () => {
+    if (answer-PDAC-tru-cut.style.display === 'none') {
+      answer-PDAC-tru-cut.style.display = 'block';
+      showAnswer-PDAC-tru-cutBtn.textContent = 'Hide the Diagnosis';
     } else {
-      answer-template.style.display = 'none';
-      showAnswer-templateBtn.textContent = 'Show the Diagnosis';
+      answer-PDAC-tru-cut.style.display = 'none';
+      showAnswer-PDAC-tru-cutBtn.textContent = 'Show the Diagnosis';
     }
   });
 </script>
@@ -246,15 +280,15 @@ asis, echo = (language == "EN")
 
 ```{comment}
 r, eval=TRUE, echo=FALSE, include=FALSE, error=TRUE
-if (!file.exists("./screenshots/template_screenshot.png")) {
+if (!file.exists("./screenshots/PDAC-tru-cut-1_screenshot.png")) {
 
 url <- "https://img.youtube.com/vi/U9glkfQLTm4/maxresdefault.jpg"
-download.file(url, destfile = "./screenshots/template_screenshot.png", mode = "wb")
+download.file(url, destfile = "./screenshots/PDAC-tru-cut-1_screenshot.png", mode = "wb")
 }
 
-**TemplateTR**
+**pankreas, pankreatik duktal adenokarsinom**
 
-[![Video İçin Tıklayın](./screenshots/template_screenshot.png){width="25%"}](https://www.youtube.com/watch?v=) [Video İçin Tıklayın](https://www.youtube.com/watch?v=)
+[![Video İçin Tıklayın](./screenshots/PDAC-tru-cut-1_screenshot.png){width="25%"}](https://www.youtube.com/watch?v=) [Video İçin Tıklayın](https://www.youtube.com/watch?v=)
 
 ```
 
@@ -278,5 +312,5 @@ asis, echo = ((language=="EN") & (output_type!="html"))
 
 ```{comment}
 =html
-<iframe src="https://images.patolojiatlasi.com/template/HE.html" style="height:600px;width:100%;" data-external="1"></iframe>
+<iframe src="https://images.patolojiatlasi.com/PDAC-tru-cut/HE1.html" style="height:600px;width:100%;" data-external="1"></iframe>
 ```
