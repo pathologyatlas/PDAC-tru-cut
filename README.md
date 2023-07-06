@@ -80,6 +80,15 @@ webshot2::webshot(
 ```
 
 
+```{r PDAC-tru-cut screenshot, eval=TRUE, include=FALSE}
+if (!file.exists("./screenshots/PDAC-tru-cut-3_screenshot.png")) {
+webshot2::webshot(
+  url = "https://images.patolojiatlasi.com/PDAC-tru-cut/HE3.html",
+  file = "./screenshots/PDAC-tru-cut_screenshot-3.png"
+)
+}
+```
+
 
 ```{r, echo=FALSE, include=FALSE, eval=FALSE}
 knitr::include_url(url = "https://images.patolojiatlasi.com/PDAC-tru-cut/HE1.html")
@@ -137,6 +146,29 @@ Mikroskopik görüntüleri inceleyin:
 <iframe src="https://images.patolojiatlasi.com/PDAC-tru-cut/HE2.html" style="height:600px;width:100%;" data-external="1"></iframe>
 
 ```
+
+
+
+
+```{asis, echo = (language == "TR")}
+
+**pankreas, pankreatik duktal adenokarsinom**
+
+
+[![Tam Ekran Görmek İçin Resmi Tıklayın](./screenshots/PDAC-tru-cut-3_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/PDAC-tru-cut/HE3.html) [Tam Ekran Görmek İçin Resmi Tıklayın](https://images.patolojiatlasi.com/PDAC-tru-cut/HE3.html)
+```
+
+
+
+
+```{asis, echo = ((language=="TR") & (output_type=="html"))}
+Mikroskopik görüntüleri inceleyin:
+
+<iframe src="https://images.patolojiatlasi.com/PDAC-tru-cut/HE3.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
 
 
 ```{comment} 
@@ -214,6 +246,26 @@ asis, echo = ((language=="TR") & (output_type!="html"))
 See Microscopy with viewer: 
 
 <iframe src="https://images.patolojiatlasi.com/PDAC-tru-cut/HE1.html" style="height:600px;width:100%;" data-external="1"></iframe>
+
+```
+
+
+```{asis, echo = (language == "EN")}
+
+**pancreas pancreatic ductal adenocarcinoma**
+
+[![Click for Full Screen WSI](./screenshots/PDAC-tru-cut-2_screenshot.png){width="25%"}](https://images.patolojiatlasi.com/PDAC-tru-cut/HE2.html) [Click for Full Screen WSI](https://images.patolojiatlasi.com/PDAC-tru-cut/HE2.html)
+
+
+```
+
+
+
+```{asis, echo = ((language == "EN") & (output_type=="html"))} 
+
+See Microscopy with viewer: 
+
+<iframe src="https://images.patolojiatlasi.com/PDAC-tru-cut/HE2.html" style="height:600px;width:100%;" data-external="1"></iframe>
 
 ```
 
