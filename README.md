@@ -5,27 +5,6 @@
 
 
 
-```
-add to begining of qmd page
-
----
-description: |
-    pancreas pancreatic ductal adenocarcinoma
-    pankreas, pankreatik duktal adenokarsinom
-date: last-modified
-categories: [PDAC-tru-cut]
-page-layout: full
-bibliography: references.bib
----
-
-```
-
-
-
-> after upload complete, do not forget to activate github pages for the new repository
-
-
-
 ```{r language PDAC-tru-cut, echo=FALSE, include=TRUE}
 source("./R/language.R")
 output_type <- knitr::opts_knit$get("rmarkdown.pandoc.to")
