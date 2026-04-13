@@ -329,3 +329,18 @@ asis, echo = ((language=="EN") & (output_type!="html"))
 =html
 <iframe src="https://images.patolojiatlasi.com/PDAC-tru-cut/HE1.html" style="height:600px;width:100%;" data-external="1"></iframe>
 ```
+
+
+---
+
+### Viewing Modes
+
+- [All Stains (Sequential)](https://images.patolojiatlasi.com/PDAC-tru-cut/all.html) - Browse HE1, HE2, HE3 stains in sequence
+- [Side by Side Comparison](https://images.patolojiatlasi.com/PDAC-tru-cut/sidebyside.html) - View stains in synchronized panels
+- [Curtain Comparison](https://images.patolojiatlasi.com/PDAC-tru-cut/curtain.html) - Overlay two stains with a draggable slider
+
+### Görüntüleme Modları
+
+- [Tüm Boyamalar (Sıralı)](https://images.patolojiatlasi.com/PDAC-tru-cut/all.html) - Tüm boyamaları sırayla inceleyin
+- [Yan Yana Karşılaştırma](https://images.patolojiatlasi.com/PDAC-tru-cut/sidebyside.html) - Boyamaları eş zamanlı panellerde görüntüleyin
+- [Perde Karşılaştırma](https://images.patolojiatlasi.com/PDAC-tru-cut/curtain.html) - İki boyamayı sürgülü perde ile karşılaştırın
